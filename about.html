@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <!-- Include the same navigation bar as in index.html -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>About Me</h1>
+        <p>I'm a dedicated front-end developer with a passion for crafting engaging, responsive, and user-friendly web experiences. With expertise in HTML, CSS, JavaScript, and modern frameworks like React (or any other relevant frameworks), I focus on building clean and maintainable code that brings design concepts to life. My approach to development combines technical precision with a deep appreciation for aesthetics, ensuring every project I work on not only performs seamlessly but also provides a great user experience.</p>
+        <button id="toggleInfo" class="btn btn-info" style="margin-bottom: 20px;">Toggle More Info</button>
+        <div id="moreInfo" style="display: none;">
+            <p>I'm constantly exploring new technologies and best practices, aiming to keep my skills sharp and my work aligned with the latest trends in web development. I thrive in collaborative environments, enjoy tackling challenges, and am driven by a commitment to creating high-quality digital products. Let's connect and bring your ideas to the web!</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 style="margin-bottom: 20px;">My Projects</h1>
+        <div id="slideshow" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item slider-item active">
+                    <img src="/Imgs/project1.jpg" class="d-block w-100 slider-img" alt="Project 1">
+                </div>
+                <div class="carousel-item slider-item">
+                    <img src="/Imgs/project2.jpg" class="d-block w-100 slider-img" alt="Project 2">
+                </div>
+                <div class="carousel-item slider-item">
+                    <img src="/Imgs/project3.jpg" class="d-block w-100 slider-img" alt="Project 3">
+                </div>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <button class="slider-button btn btn-info" id="prev">Previous</button>
+            <button class="slider-button btn btn-info" id="next">Next</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/script.js"></script>
+
+</body>
+</html>
